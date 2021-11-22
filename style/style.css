@@ -108,3 +108,24 @@ div.code {
 .footer a {
   color: #4caf50;
 }
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #f1eded;
+}
+
+th img {
+  height: 30px;
+  width: 30px;
+  
+}
