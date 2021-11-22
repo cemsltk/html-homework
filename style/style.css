@@ -96,3 +96,15 @@ div.code {
   border-left: 3px solid #4caf50;
   padding: 0.2em 0.4em;
 }
+.footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #555;
+  color: white;
+  text-align: center;
+}
+.footer a {
+  color: #4caf50;
+}
