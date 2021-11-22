@@ -1,0 +1,98 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 15%;
+  background-color: #f1f1f1;
+  border: 1px solid #555;
+  height: 100%;
+  position: fixed;
+  overflow: auto;
+}
+ul li {
+  text-align: center;
+  border-bottom: 1px solid #555;
+}
+ul li:last-child {
+  border-bottom: none;
+}
+ul li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+ul li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+a.active {
+  background-color: #4caf50;
+  color: white;
+}
+div.container {
+  margin-left: 18%;
+  margin-top: 30px;
+  padding: 1px 16px;
+  position: fixed;
+  height: 100%;
+  width: 80%;
+  overflow: auto;
+}
+
+ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: #f1f1f1;
+  border: 1px solid #555;
+}
+ol li {
+  text-align: start;
+  border-bottom: 1px solid;
+}
+
+ol li:last-child {
+  border-bottom: none;
+}
+
+ol li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+ol li a:hover:not(.active) {
+  background-color: #4caf50;
+  color: white;
+}
+
+ol li a.active {
+  background-color: #4caf50;
+  color: white;
+}
+
+em {
+  color: black;
+  font-weight: bold;
+}
+
+div.example {
+  font-size: 1em;
+  color: black;
+  background-color: #f1f1f1;
+  border: 1px solid #c9c7c7;
+  border-radius: 4px;
+  padding: 0.2em 0.4em;
+  width: 60%
+}
+
+div.code {
+  font-size: 1em;
+  color: black;
+  background-color: white;
+  border-left: 3px solid #4caf50;
+  padding: 0.2em 0.4em;
+}
